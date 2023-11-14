@@ -22,6 +22,11 @@ const links = [
     icon: PaperClipIcon,
   },
   {
+    name: "Create Invoice",
+    href: "/dashboard/invoices/create",
+    icon: PaperClipIcon,
+  },
+  {
     name: "Prescriptions",
     href: "/dashboard/prescriptions",
     icon: UserGroupIcon,
