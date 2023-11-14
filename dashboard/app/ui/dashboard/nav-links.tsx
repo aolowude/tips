@@ -18,11 +18,6 @@ const links = [
   { name: "Home", href: "/dashboard", icon: HomeIcon },
   {
     name: "Invoices",
-    href: "/dashboard/invoices",
-    icon: PaperClipIcon,
-  },
-  {
-    name: "Create Invoice",
     href: "/dashboard/invoices/create",
     icon: PaperClipIcon,
   },
@@ -33,7 +28,6 @@ const links = [
   },
   { name: "Doctors", href: "/dashboard/doctors", icon: HeartIcon },
   { name: "Customers", href: "/dashboard/customers", icon: UserGroupIcon },
-  { name: "Medicine", href: "/dashboard/medicine", icon: PlusIcon },
 ];
 
 export default function NavLinks() {
