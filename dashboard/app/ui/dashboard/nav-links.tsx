@@ -6,6 +6,7 @@ import {
   DocumentDuplicateIcon,
   HeartIcon,
   PaperClipIcon,
+  ListBulletIcon,
   PlusIcon,
 } from "@heroicons/react/24/outline";
 import Link from "next/link";
@@ -17,7 +18,12 @@ import clsx from "clsx";
 const links = [
   { name: "Home", href: "/dashboard", icon: HomeIcon },
   {
-    name: "Invoices",
+    name: "View Invoices",
+    href: "/dashboard/invoices",
+    icon: ListBulletIcon,
+  },
+  {
+    name: "Create Invoice",
     href: "/dashboard/invoices/create",
     icon: PaperClipIcon,
   },
