@@ -23,15 +23,10 @@ const links = [
     icon: ListBulletIcon,
   },
   {
-    name: "Create Invoice",
-    href: "/dashboard/invoices/create",
-    icon: PaperClipIcon,
+    name: "Prescriptions",
+    href: "/dashboard/prescriptions",
+    icon: UserGroupIcon,
   },
-  // {
-  //   name: "Prescriptions",
-  //   href: "/dashboard/prescriptions",
-  //   icon: UserGroupIcon,
-  // },
   { name: "Doctors", href: "/dashboard/doctors", icon: HeartIcon },
   { name: "Customers", href: "/dashboard/customers", icon: UserGroupIcon },
 ];
